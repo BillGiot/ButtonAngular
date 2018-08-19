@@ -8,7 +8,7 @@ var mongoose = require('mongoose');
 var passport = require('passport'); 
 
 
-mongoose.connect('mongodb://localhost:27017/buttondb', {useNewUrlParser: true}); 
+mongoose.connect('mongodb://admin:button123@ds125392.mlab.com:25392/buttondb', {useNewUrlParser: true}); 
 
 require('./models/Button'); 
 require('./models/User'); 
